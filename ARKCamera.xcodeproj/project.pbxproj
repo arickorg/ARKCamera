@@ -14,6 +14,8 @@
 		131ED3D81C44B73700D2AF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131ED3D61C44B73700D2AF5F /* LaunchScreen.storyboard */; };
 		131ED3E31C44B73700D2AF5F /* ARKCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131ED3E21C44B73700D2AF5F /* ARKCameraTests.swift */; };
 		131ED3EE1C44B73800D2AF5F /* ARKCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131ED3ED1C44B73800D2AF5F /* ARKCameraUITests.swift */; };
+		13901D6A1C5213C30067B8A0 /* ARKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901D691C5213C30067B8A0 /* ARKView.swift */; };
+		13901D6C1C5213CD0067B8A0 /* ARKPreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901D6B1C5213CD0067B8A0 /* ARKPreviewLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		131ED3E91C44B73800D2AF5F /* ARKCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131ED3ED1C44B73800D2AF5F /* ARKCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKCameraUITests.swift; sourceTree = "<group>"; };
 		131ED3EF1C44B73800D2AF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13901D691C5213C30067B8A0 /* ARKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKView.swift; sourceTree = "<group>"; };
+		13901D6B1C5213CD0067B8A0 /* ARKPreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKPreviewLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				131ED3CD1C44B73700D2AF5F /* AppDelegate.swift */,
 				131ED3CF1C44B73700D2AF5F /* ViewController.swift */,
+				13901D691C5213C30067B8A0 /* ARKView.swift */,
+				13901D6B1C5213CD0067B8A0 /* ARKPreviewLayer.swift */,
 				131ED3D11C44B73700D2AF5F /* Main.storyboard */,
 				131ED3D41C44B73700D2AF5F /* Assets.xcassets */,
 				131ED3D61C44B73700D2AF5F /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				131ED3D01C44B73700D2AF5F /* ViewController.swift in Sources */,
+				13901D6C1C5213CD0067B8A0 /* ARKPreviewLayer.swift in Sources */,
+				13901D6A1C5213C30067B8A0 /* ARKView.swift in Sources */,
 				131ED3CE1C44B73700D2AF5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				131ED3F41C44B73800D2AF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		131ED3F51C44B73800D2AF5F /* Build configuration list for PBXNativeTarget "ARKCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				131ED3F71C44B73800D2AF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		131ED3F81C44B73800D2AF5F /* Build configuration list for PBXNativeTarget "ARKCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				131ED3FA1C44B73800D2AF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
